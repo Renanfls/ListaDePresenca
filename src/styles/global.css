@@ -8,6 +8,5 @@ body, input, button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 
-    /* Deixa os contornos da fonte mais suave */
     -webkit-font-smoothing: antialiased;
 }
