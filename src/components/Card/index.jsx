@@ -1,6 +1,5 @@
 import './styles.css';
 
-/* Obtem as propriedades através do parâmetro `props` */
 export function Card(props) {
     return(
         <div className="card">
@@ -9,14 +8,3 @@ export function Card(props) {
         </div>
     )
 }
-
-/* Outra forma só que desestruturando o `props` já passando a propridade desejada
-export function Card({ name, time }) {
-    return(
-        <div className="card">
-            <strong>{name}</strong>
-            <small>{time}</small>
-        </div>
-    )
-}
-*/
